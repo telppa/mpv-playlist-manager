@@ -38,9 +38,9 @@ GUI:
 	Menu Tray, Default, 显示
 	Menu Tray, Icon, mpv.exe
 	
-	if (FileExist("mpv_list.json"))
+	if (FileExist("m3uGUI.json"))
 	{
-		data_tv := load_json("mpv_list.json")
+		data_tv := load_json("m3uGUI.json")
 		need_to_update := A_Now
 		EnvSub, need_to_update, % data_tv["last_update_time"], Days
 	}
@@ -268,8 +268,8 @@ CloseCallback(self)
 SaveAndExit:
 	if (IsObject(data_tv))
 	{
-		FileDelete mpv_list.json
-		FileAppend % json.dump(data_tv), mpv_list.json
+		FileDelete m3uGUI.json
+		FileAppend % json.dump(data_tv), m3uGUI.json
 	}
 	ExitApp
 return
