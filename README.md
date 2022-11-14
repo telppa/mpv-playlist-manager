@@ -1,6 +1,7 @@
 # m3uGUI-for-mpv  
 a GUI m3u file manager for mpv.  
 一个带界面的 m3u 文件管理器（ mpv 专用）。  
+![](https://raw.githubusercontent.com/telppa/m3uGUI-for-mpv/main/Img/4.png)  
 
 ## Usage (用法)  
 * Put ```m3uGUI.exe``` in the directory where ```mpv.exe``` is, then run ```m3uGUI.exe``` .  
