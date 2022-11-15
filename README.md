@@ -1,6 +1,7 @@
 # mpv-playlist-manager  
 a GUI playlist manager for mpv.  
 带界面的播放列表管理器（ mpv 插件）。  
+
 ![](https://raw.githubusercontent.com/telppa/m3uGUI-for-mpv/main/Img/4.png)  
 
 ## Usage (用法)  
@@ -10,11 +11,13 @@ a GUI playlist manager for mpv.
 ## Load from file (从文件加载)  
 * drag file (.m3u .m3u8 .txt) to the GUI.  
 * 拖动文件 (.m3u .m3u8 .txt) 到 GUI 上。  
+
 ![](https://raw.githubusercontent.com/telppa/m3uGUI-for-mpv/main/Img/1.png)  
 
 ## Subscribe from URL (订阅地址)  
 * Right-click on the tray icon and the second item allows you to subscribe a URL.  
 * 托盘菜单的订阅项，可以让你订阅一个地址。  
+
 ![](https://raw.githubusercontent.com/telppa/m3uGUI-for-mpv/main/Img/2.png)  
   
 ## Animation Demo (动画演示)  
