@@ -1,11 +1,11 @@
-# m3uGUI-for-mpv  
-a GUI m3u file manager for mpv.  
-一个带界面的 m3u 文件管理器（ mpv 专用）。  
+# mpv-playlist-manager  
+a GUI playlist manager for mpv.  
+带界面的播放列表管理器（ mpv 插件）。  
 ![](https://raw.githubusercontent.com/telppa/m3uGUI-for-mpv/main/Img/4.png)  
 
 ## Usage (用法)  
-* Put ```m3uGUI.exe``` in the directory where ```mpv.exe``` is, then run ```m3uGUI.exe``` .  
-* 将 ```m3uGUI.exe``` 放到 ```mpv.exe``` 所在目录，然后运行 ```m3uGUI.exe``` 。  
+* Put ```mpv playlist manager.exe``` in the directory where ```mpv.exe``` is, then run ```mpv playlist manager.exe``` .  
+* 将 ```mpv playlist manager.exe``` 放到 ```mpv.exe``` 所在目录，然后运行 ```mpv playlist manager.exe``` 。  
 
 ## Load from file (从文件加载)  
 * drag file (.m3u .m3u8 .txt) to the GUI.  
