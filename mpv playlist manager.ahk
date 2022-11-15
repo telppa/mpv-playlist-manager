@@ -34,6 +34,7 @@ GUI:
 	Menu Tray, NoStandard
 	Menu Tray, Add, 显示, GuiShow
 	Menu Tray, Add, 订阅, Subscribe
+	Menu Tray, Add, 主页, HomePage
 	Menu Tray, Add, 退出, SaveAndExit
 	Menu Tray, Default, 显示
 	Menu Tray, Icon, mpv.exe
@@ -260,6 +261,10 @@ UpdateFromURL(url)
 	}
 }
 
+HomePage:
+	Run https://github.com/telppa/mpv-playlist-manager
+return
+	
 CloseCallback(self)
 {
 	gosub SaveAndExit
